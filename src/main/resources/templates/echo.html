@@ -6,9 +6,12 @@
 <title>ほめるページ</title>
 </head>
 <body>
-
+<form th:href="@{/index}" th:object="${echoForm}" method="post">
 <p th:text="|えらいぞ ${name}|"></p>
-<p th:href="@{/}">ほめるbot TOP</p>
+<p>
+    <button type="submit" value="ほめるbot TOP">ほめるbot TOP</button>
+</p>
+</form>
 
 </body>
 </html>
