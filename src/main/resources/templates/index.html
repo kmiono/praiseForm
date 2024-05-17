@@ -9,7 +9,6 @@
 	<h1>ほめるページ TOP</h1>
 	<form th:object="${echoForm}" th:action="@{/echo}" method="POST">
 		<div>名前を入れてください</div>
-		<div>（半角英数4文字以上）</div>
 		<div>
 			<input type="text" th:field="*{name}" />
 			<button>送信します</button>
