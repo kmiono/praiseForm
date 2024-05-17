@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+body{
+	background:lightblue;
+}
+
+h1,label,p{
+	color:white;
+}
