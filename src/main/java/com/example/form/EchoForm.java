@@ -7,7 +7,7 @@ import java.io.Serializable;
 
 public class EchoForm implements Serializable {
 	private static final long serialVersionUID = 1L;
-//	最小4文字の英数字のみ入力を受け付けるフォームの作成
+//	最小2文字の入力を受け付けるフォームの作成
 	@NotBlank
 	@Size(min = 2)
 	private String name;
